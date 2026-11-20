@@ -69,6 +69,10 @@ The roasting/delegation filters use the LDAP bitwise-AND matching rule
 (`1.2.840.113556.1.4.803`) against `userAccountControl` — e.g. `0x400000`
 (DONT_REQ_PREAUTH) for AS-REP roastable accounts.
 
+## Related
+
+- [creds-hunting](https://github.com/SageSchiller/creds-hunting) — fast read-only credential hunting: Linux + Windows local sweeps and a Kali-side DB-dump parser (user:pass + hashes, UTF-16-safe).
+
 ## Note
 
 For authorized security testing, labs, and CTFs. Read-only LDAP enumeration —
